@@ -11,6 +11,10 @@ const app = props =>  {
     ]
   });
 
+  const [ otherState, setOtherState ] = useState('some other value')
+
+  console.log(personsState, otherState)
+
   const switchNameHandler = () => {
     // console.log("I was clicked!")
     // DON'T DO THIS: this.state.persons[0].name = "Maximillion";
